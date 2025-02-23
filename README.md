@@ -15,9 +15,6 @@ The FNO model is trained to predict the evolution of the vorticity field and ene
 ## Repository Structure
 ```
 |
-|-- data/                            # Preprocessed simulation data
-|-- models/                          # FNO implementation
-|-- notebooks/                       # Jupyter notebooks for visualization
 |-- generate_fno_predictions.py      # Generate predictions using FNO model
 |-- main.py                         # Numerical solver
 |-- train_fno.py                    # Train the Fourier Neural Operator
